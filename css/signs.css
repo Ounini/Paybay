@@ -1,0 +1,345 @@
+body {
+  width: 100%;
+  height: 100%;
+}
+div#nav.nav {
+  margin-bottom: 30px;
+}
+#emailHelp {
+  color: #fff;
+}
+.login-box {
+  position: absolute;
+  margin-top: 25%;
+  left: 50%;
+  width: 400px;
+  padding: 40px;
+  transform: translate(-50%, -50%);
+  background: rgba(0,0,0,.8);
+  box-shadow: 0 15px 25px rgba(0,0,0,.9);
+  border-radius: 10px;
+}
+
+.login-box h2 {
+  margin: 0 0 30px;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+}
+
+.login-box .user-box {
+  position: relative;
+}
+
+.login-box .user-box input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+}
+.login-box .user-box label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 20px;
+  color: #fff;
+  pointer-events: none;
+  transition: .5s;
+}
+
+.login-box .user-box input:focus ~ label,
+.login-box .user-box input:valid ~ label {
+  top: -20px;
+  left: 0;
+  color: #fff;
+  font-size: 12px;
+}
+
+.login-box form a {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: .5s;
+  margin-top: 40px;
+  letter-spacing: 4px
+}
+
+.login-box a:hover {
+  background: #6f42c1;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #6f42c1,
+              0 0 25px #6f42c1,
+              0 0 50px #6f42c1,
+              0 0 100px #6f42c1;
+}
+
+.login-box a span {
+  position: absolute;
+  display: block;
+}
+
+.login-box a span:nth-child(1) {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #6f42c1);
+  animation: btn-anim1 1s linear infinite;
+}
+
+@keyframes btn-anim1 {
+  0% {
+    left: -100%;
+  }
+  50%,100% {
+    left: 100%;
+  }
+}
+
+.login-box a span:nth-child(2) {
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, #6f42c1);
+  animation: btn-anim2 1s linear infinite;
+  animation-delay: .25s
+}
+
+@keyframes btn-anim2 {
+  0% {
+    top: -100%;
+  }
+  50%,100% {
+    top: 100%;
+  }
+}
+
+.login-box a span:nth-child(3) {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent, #6f42c1);
+  animation: btn-anim3 1s linear infinite;
+  animation-delay: .5s
+}
+
+@keyframes btn-anim3 {
+  0% {
+    right: -100%;
+  }
+  50%,100% {
+    right: 100%;
+  }
+}
+
+.login-box a span:nth-child(4) {
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg, transparent, #6f42c1);
+  animation: btn-anim4 1s linear infinite;
+  animation-delay: .75s
+}
+
+@keyframes btn-anim4 {
+  0% {
+    bottom: -100%;
+  }
+  50%,100% {
+    bottom: 100%;
+  }
+}
+
+span#forgotten a {
+  padding: 0;
+  font-size: 1em;
+  text-transform: none;
+  letter-spacing: 1px;
+  margin-top: 0;
+}
+p#notMember {
+  font-size: 1.2em;
+  margin-left: 15px;
+}
+a#signUp1 {
+  padding-bottom: 0;
+}
+footer {
+  position: relative;
+  top: 90%;
+}
+
+/** media breakpoints **/
+/************ xtra xtra lerge device only **************/
+@media (min-width: 1400px) {
+  footer {
+    text-align: center;
+    top: 0;
+    margin-top: 58%;
+    left: 40%;
+  }
+
+}
+/********** xtra large device only **********/
+@media (min-width: 1200px) and (max-width: 1399px) {
+    /*log in*/
+  .login-box {
+  margin-top: 0%;
+  top: 70%;
+  }
+    footer {
+    text-align: center;
+    top: 0;
+    margin-top: 90%;
+    left: 34%;
+  }
+  div a#faq {
+    top: 40%;
+  }
+
+}
+/******** large device only ********/ 
+@media (min-width: 992px) and (max-width: 1199px) {
+    html {
+    height: 120vw;
+  }
+  img#logo {
+    width: 100px;
+    height: 100px;
+  }
+    /*log in*/
+  .login-box {
+  margin-top: 0%;
+  top: 50%;
+  }
+  div a#faq {
+    top: 40%;
+  }
+    footer {
+    text-align: center;
+    top: 0;
+    margin-top: 100%;
+    left: 34%;
+  }
+  #socials img {
+  width: 50px;
+  height: 50px;
+  }
+  #copyright {
+  font-size: 1.2em;
+ }
+  
+
+}
+
+/******** medium device only *******/
+@media (min-width: 768px) and (max-width: 991px) {
+  html {
+    height: 152vw;
+  }
+   img#logo {
+    width: 100px;
+    height: 100px;
+  }
+    /*log in*/
+  .login-box {
+  margin-top: 0%;
+  top: 140%;
+  }
+  div a#faq {
+    top: 40%;
+  }
+  footer {
+  position: relative;
+  margin-top: 120%;
+  top: 0;
+  left: 30%;
+  }
+  #socials img {
+  width: 50px;
+  height: 50px;
+  }
+  #copyright {
+  font-size: 1.2em;
+ }
+  
+} 
+/********* small device only *******/
+@media (min-width: 576px) and (max-width: 767px) {
+ html {
+    height: 200vw;
+  }
+   img#logo {
+    width: 100px;
+    height: 100px;
+  }
+    /*log in*/
+  .login-box {
+  margin-top: 0%;
+  top: 135%;
+  }
+  div a#faq {
+    top: 40%;
+  }
+  footer {
+  position: relative;
+  margin-top: 150%;
+  top: 0;
+  left: 17%;
+  }
+  #socials img {
+  width: 50px;
+  height: 50px;
+  }
+  #copyright {
+  font-size: 1.2em;
+ }
+}
+/********** xtra small device only *******/
+@media (max-width: 575px) {
+
+   html {
+    height: 360vw;
+  }
+   img#logo {
+    width: 100px;
+    height: 100px;
+  }
+    /*log in*/
+  .login-box {
+    padding-top: 0;
+  margin-top: 0%;
+  top: 80%;
+  width: 100vw;
+  }
+  div a#faq {
+    top: 40%;
+  }
+  footer {
+  position: relative;
+  margin-top: 290%;
+  top: 0;
+  }
+  #socials img {
+  width: 50px;
+  height: 50px;
+  }
+  #copyright {
+  font-size: 1.2em;
+ }
+}

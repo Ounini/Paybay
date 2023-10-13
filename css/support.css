@@ -1,0 +1,72 @@
+.container {
+	margin-top: 100px;
+}
+.container div#accordionItems .accordion-header {
+	animation: mymove;
+	animation-duration: 5s;
+}
+
+@keyframes mymove {
+	from {right: 0px;}
+	to {right: 300px;}
+}
+h2 {
+	font-size: 1.5em;
+}
+strong {
+	font-size: 1.15em;
+}
+.accordion-button:not(.collapsed) {
+	background-color: #6f42c1;
+	color: #fff;
+}
+div.accordion-item {
+	margin: 10px;
+}
+/*end of main content*/
+
+/*copyright*/
+#copyright {
+	position: relative;
+	margin-top: 110px;
+	font-size: 1.3em;
+	cursor: default;
+}
+a:hover {
+	color: #dc3545;
+}
+/** media breakpoints **/
+/************ xtra xtra lerge device only **************/
+@media (min-width: 1400px) {
+ 
+}
+/********** xtra large device only **********/
+@media (min-width: 1200px) and (max-width: 1399px) {
+ 
+
+}
+/******** large device only ********/ 
+@media (min-width: 992px) and (max-width: 1199px) {
+	h2 {
+		font-size: 1.3em;
+	}	
+}
+
+/******** medium device only *******/
+@media (min-width: 768px) and (max-width: 991px) {
+	h2 {
+		font-size: 1.2em;
+	}	  
+} 
+/********* small device only *******/
+@media (min-width: 576px) and (max-width: 767px) {
+	h2 {
+		font-size: 1.17em;
+	}
+}
+/********** xtra small device only *******/
+@media (max-width: 575px) {
+	h2 {
+		font-size: 1.15em;
+	}
+}

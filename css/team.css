@@ -1,0 +1,270 @@
+div#overviewDashboard {
+	border: 1px solid #000;
+	width: 450px;
+	height: 400px;
+	margin-left: 34%;
+	margin-top: 30px;
+	padding: 20px;
+	color: #fff;
+	background-color: #000;
+	border-radius: 30px;
+	box-shadow: 0 0 40px 0;
+	margin-bottom: 30px;
+}
+h4#overviewDashboardHeader {
+	font-size: 1.35em;
+	font-weight: 600;
+	color: #0dcaf0;
+}
+span#overviewAmount {
+	font-size: 3em;
+	font-weight: 800;
+}
+p#members {
+	text-align: center;
+	margin-top: 70px;
+	font-size: 1.3em;
+	color: #0dcaf0;
+}
+span#memberNumbers {
+	font-size: 1.7em;
+	margin-left: 190px;
+}
+p#level {
+	font-size: 1.2em;
+	margin-top: 30px;
+	color: #0dcaf0;
+}
+h3#overviewTableHeader {
+	font-size: 2.2em;
+	text-align: center;
+	font-weight: 600;
+	margin-top: 100px;
+	margin-bottom: 5px;
+}
+span#breakLine {
+	border: 4px solid #000;
+	margin-bottom: 40px;
+}
+div#contributorPrimary {
+	border: 1px solid #000;
+	margin-left: 50px;
+	width: 500px;
+	height: 270px;
+	background-color: #212529;
+	color: #fff;
+	border-radius: 30px;
+	box-shadow: 0 0 40px 0 ;
+	padding: 40px;
+	margin-right: 200px;
+}
+h4#contributorPrimaryHeader {
+	font-size: 1.6em;
+	font-weight: 600;
+	text-shadow: 0 0 10px;
+}
+span#contributorPrimaryAmount {
+	font-size: 2.5em;
+	float: right;
+	margin-top: 85px;
+	font-weight: 800;
+}
+div#contributorSecondary {
+	border: 1px solid #000;
+	width: 500px;
+	height: 270px;
+	background-color: #212529;
+	color: #fff;
+	border-radius: 30px;
+	box-shadow: 0 0 40px 0 ;
+	padding: 40px;
+}
+h4#contributorSecondaryHeader {
+	font-size: 1.6em;
+	font-weight: 600;
+	text-shadow: 0 0 10px;	
+}
+span#contributorSecondaryAmount {
+	font-size: 2.5em;
+	float: right;
+	margin-top: 85px;
+	font-weight: 800;	
+}
+div#personalLink {
+	border: 2px solid #fff;
+	width: 500px;
+	height: 340px;
+	background-color: #fff;
+	border-radius: 5px;
+	padding: 30px;
+	margin-top: 90px;
+	margin-left: 30%;
+	margin-bottom: 40px;
+	box-shadow: 40px 0 40px 0 #000;
+}
+h5#personalLinkHeader {
+	margin-bottom: 20px;
+	font-size: 2.1em;
+}
+p#personalLinkWrite {
+	font-size: 1.2em;
+}
+button#myReferrals1 {
+	background-color: #6f42c1;
+	padding: 30px;
+	font-size: 1.3em;
+	margin-left: 130px;
+	margin-bottom: 30px;
+}
+.referralLink2 {
+	display: flex;
+	align-items: center;
+	background-color: #fff;
+	max-width: 400px;
+	margin-bottom: 20px;
+}
+#referralLink3  {
+	flex-grow: 1;
+	padding: 5px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+}
+#copyButton {
+	margin-left: 10px;
+	padding: 5px 10px;
+	background-color: #fff;
+	color: #000;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+}
+#copyButton:hover {
+	background-color: #555;
+}
+/** media breakpoints **/
+/************ xtra xtra lerge device only **************/
+@media (min-width: 1400px) {
+	 
+}
+/********** xtra large device only **********/
+@media (min-width: 1200px) and (max-width: 1399px) {
+	div#contributorPrimary {
+		width: 400px;
+		margin-left: 70px;
+	}
+	div#contributorSecondary {
+		width: 400px;
+	}
+}
+/******** large device only ********/ 
+@media (min-width: 992px) and (max-width: 1199px) {	
+	div#contributorPrimary {
+		width: 400px;
+		margin-left: 25px;
+		margin-right: 100px;
+	}
+	div#contributorSecondary {
+		margin-left: 0;
+		width: 400px;
+	}
+}
+
+/******** medium device only *******/
+@media (min-width: 768px) and (max-width: 991px) {	
+	div#overviewDashboard {
+		margin-left: 15%;
+	}
+	div#contributorPrimary {
+		margin-left: 15%;
+		margin-right: 0;
+		margin-bottom: 50px;
+	}
+	div#contributorSecondary {
+		margin-left: 15%;
+		margin-right: 0;
+	}
+	div#personalLink {
+		margin-left: 14%;
+	}
+} 
+/********* small device only *******/
+@media (min-width: 576px) and (max-width: 767px) {
+	div#overviewDashboard {
+		margin-left: 5%;
+	}
+	div#contributorPrimary {
+		margin-left: 3%;
+		margin-right: 0;
+		margin-bottom: 50px;
+	}
+	div#contributorSecondary {
+		margin-left: 3%;
+		margin-right: 0;
+	}
+	div#personalLink {
+		margin-left: 0%;
+	}	
+}
+/********** xtra small device only *******/
+@media (max-width: 575px) {
+	div#overviewDashboard {
+		width: 350px;
+		margin-left: 1vw;
+		margin-bottom: 0;
+	}
+	h4#overviewDashboardHeader {
+		margin-top: 20px;
+		font-size: 1.1em;
+	}
+	span#overviewAmount {
+		font-size: 2.4em;
+	}
+	p#members {
+		margin-top: 100px;
+		font-size: 1.1em;
+	}
+	span#memberNumbers {
+		font-size: 1.4em;
+		margin-left: 0;
+		margin-left: 140px;
+	}
+	p#level {
+		margin-top: 10px;
+	}
+	div#contributorPrimary {
+		width: 350px;
+		height: 150px;
+		margin-left: 1vw;
+		padding: 25px;
+		margin-bottom: 30px;
+	}
+	span#contributorPrimaryAmount {
+		font-size: 2.3em;
+		margin-top: 20px;
+	}
+	div#contributorSecondary {
+		width: 350px;
+		height: 150px;
+		margin-left: 1vw;
+		padding: 25px;
+	}
+	span#contributorSecondaryAmount {
+		font-size: 2.3em;
+		margin-top: 20px;	
+	}
+	div#personalLink {
+		margin-left: 0;
+		width: 350px;
+	}
+	h5#personalLinkHeader {
+		font-size: 1.6em;
+	}
+	p#personalLinkWrite {
+		font-size: 1em;
+	}
+	button#myReferrals1 {
+		padding: 20px;
+		margin-left: 60px;
+	}
+
+}

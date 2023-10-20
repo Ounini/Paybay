@@ -173,6 +173,9 @@ span#thirdLevel {
 hr {
 	margin-top: 100px;
 }
+[id^="Deposit"] {
+	display: none;
+}
 /** media breakpoints **/
 /************ xtra xtra lerge device only **************/
 @media (min-width: 1400px) {

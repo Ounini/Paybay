@@ -36,6 +36,7 @@ ul {
 	letter-spacing: 1px;
 }
 li {
+	padding-inline: 0.7vw;
 	margin-inline: 5px;
 	text-align: left;
 }
@@ -136,25 +137,6 @@ div.offcanvas-header {
 hr {
 	margin-bottom: 40px;
 }
-div#logOut1 {
-	margin-bottom: 40px;
-}
-#logOut1 a {
-	color: #fff;
-	background-color: #000;
-	border: 2px solid #000;
-	text-decoration: none;
-	padding: 20px;
-	font-size: 1.3em;	
-	border-radius: 40px;
-	box-shadow: 0 0 20px 0 #000;
-	position: relative;
-	left: 83vw;
-}
-#logOut1 a:hover {
-	background-color: #ffc107;
-	color: #000;
-}
 /** media breakpoints **/
 /************ xtra xtra lerge device only **************/
 @media (min-width: 1400px) {
@@ -163,7 +145,7 @@ div#logOut1 {
 /********** xtra large device only **********/
 @media (min-width: 1200px) and (max-width: 1399px) {
 	ul {
-	margin-left: 35%;
+	margin-left: 30%;
 	font-size: 19px;
 	letter-spacing: 0.5px;
 	} 
@@ -177,8 +159,12 @@ div#logOut1 {
 }
 /******** large device only ********/ 
 @media (min-width: 992px) and (max-width: 1199px) {
+	img#navbar-logo {
+		width: 100px;
+		height: 100px;
+	} 
 		ul {
-	margin-left: 20%;
+	margin-left: 15%;
 	font-size: 19px;
 	letter-spacing: 0.5px;
 	} 
@@ -204,6 +190,8 @@ div#logOut1 {
 		margin-top: 30px;
 	}
 	li {
+		margin-inline: 0;
+		padding-inline: 0;
 		margin-bottom: 20px;
 	}
 	li:active {
@@ -248,6 +236,7 @@ div#logOut1 {
 		margin-top: 30px;
 	}
 	li {
+		margin-inline: 0;
 		margin-bottom: 20px;
 	}
 	li:active {
@@ -292,6 +281,7 @@ div#logOut1 {
 		margin-left: 0;
 	}
 	li {
+		padding-inline: 0;
 		font-size: 0.9em !important;
 		margin-bottom: 20px;
 	}

@@ -1,0 +1,277 @@
+#circle1 {
+	position: fixed;
+	top: 20%;
+	left: 1%;
+	border: 2px;
+	padding: 170px;
+	border-radius: 360px;
+	background-color: #dc3545;
+	opacity: .2;
+}
+#circle2 {
+	position: fixed;
+	top: 40%;
+	left: 21%;
+	border: 2px;
+	padding: 170px;
+	border-radius: 360px;
+	background-color: #dc3545;
+	opacity: .2;
+}
+#circle3 {
+	position: fixed;
+	top: 60%;
+	left: 41%;
+	border: 2px;
+	padding: 170px;
+	border-radius: 360px;
+	background-color: #dc3545;
+	opacity: .2;
+}
+#circle4 {
+	position: fixed;
+	top: 40%;
+	left: 61%;
+	border: 2px;
+	padding: 170px;
+	border-radius: 360px;
+	background-color: #dc3545;
+	opacity: .2;	
+}
+#circle5 {
+	position: fixed;
+	top: 20%;
+	left: 81%;
+	border: 2px;
+	padding: 170px;
+	border-radius: 360px;
+	background-color: #dc3545;
+	opacity: .2;
+}
+#navbar {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+#about {
+	margin-top: 140px;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	text-transform: uppercase;
+	background-color: white;
+	opacity: 1;
+	font-size: 3em;
+	font-weight: 800;
+
+}
+#forwardHeading {
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 2em;
+	margin-top: 30px;
+}
+#forwardBody {
+	margin-top: 10px;
+	font-size: 1.5em;
+	padding-left: 60px;
+	padding-right: 60px;
+}
+#missionHeading {
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 2em;
+	margin-top: 30px;
+}
+#missionBody {
+	margin-top: 10px;
+	font-size: 1.5em;
+	padding-left: 60px;
+	padding-right: 60px;	
+}
+#visionHeading {
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 2em;
+	margin-top: 30px;	
+}
+#visionBody {
+	margin-top: 10px;
+	font-size: 1.5em;
+	padding-left: 60px;
+	padding-right: 60px;	
+}
+#paybayCommunity {
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 2em;
+	margin-top: 30px;	
+}
+#paybayCommunityBody {
+	margin-top: 10px;
+	font-size: 1.5em;
+	padding-left: 60px;
+	padding-right: 60px;	
+}
+#mapHeading {
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 2em;
+	margin-top: 30px;	
+}
+#mapBody {
+	margin-top: 10px;
+	font-size: 1.5em;
+	padding-left: 60px;
+	padding-right: 60px;
+	margin-bottom: 50px;	
+}
+/** media breakpoints **/
+/************ xtra xtra lerge device only **************/
+@media (min-width: 1400px) {
+ 
+}
+/********** xtra large device only **********/
+@media (min-width: 1200px) and (max-width: 1399px) {
+	#about {
+		margin-top: 150px;
+	} 
+
+}
+/******** large device only ********/ 
+@media (min-width: 992px) and (max-width: 1199px) {
+	#about {
+		padding-top: 50px;
+		margin-top: 150px;
+	}		
+}
+
+/******** medium device only *******/
+@media (min-width: 768px) and (max-width: 991px) {
+	#circle1 {
+		padding: 120px;
+		left: 20%;
+	}
+	#circle2 {
+		padding: 120px;
+		left: 40%;	
+	}			
+	#circle3 {
+		padding: 120px;
+		left: 60%;
+	} 
+	#circle4 {
+		padding: 120px;
+		left: 80%;
+	} 
+	#circle5 {
+		padding: 120px;
+		left: 100%;
+	}
+} 
+/********* small device only *******/
+@media (min-width: 576px) and (max-width: 767px) {
+	#circle1 {
+		padding: 120px;
+		left: 30%;
+	}
+	#circle2 {
+		padding: 120px;
+		left: 50%;	
+	}			
+	#circle3 {
+		padding: 120px;
+		left: 70%;
+	} 
+	#circle4 {
+		padding: 120px;
+		left: 90%;
+	} 
+	#circle5 {
+		padding: 120px;
+		left: 110%;
+	}
+	#about {
+		font-size: 2.5em;
+		padding-top: 20px;
+	}
+	#forwardBody {
+		font-size: 1.2em;
+		padding-left: 20px;
+		padding-right: 10px;
+	}
+	#missionBody {
+		font-size: 1.2em;
+		padding-left: 20px;
+		padding-right: 10px;			
+	}
+	#visionBody {
+		font-size: 1.2em;
+		padding-left: 20px;
+		padding-right: 10px;
+	}
+	#paybayCommunityBody {
+		font-size: 1.2em;
+		padding-left: 20px;
+		padding-right: 10px;
+	}
+	#mapBody {
+		font-size: 1.2em;
+		padding-left: 20px;
+		padding-right: 10px;
+	}	
+}
+/********** xtra small device only *******/
+@media (max-width: 575px) {
+	#circle1 {
+		padding: 60px;
+		left: 40%;
+	}
+	#circle2 {
+		padding: 60px;
+		left: 40%;	
+	}			
+	#circle3 {
+		padding: 60px;
+		left: 40%;
+	} 
+	#circle4 {
+		padding: 60px;
+		top: 80%;
+		left: 40%;
+	} 
+	#circle5 {
+		padding: 60px;
+		top: 0;
+		left: 40%;
+	}
+	#about {
+		font-size: 2.5em;
+		padding-top: 20px;
+	}
+	#forwardBody {
+		font-size: 1.2em;
+		padding-left: 20px;
+		padding-right: 10px;
+	}
+	#missionBody {
+		font-size: 1.2em;
+		padding-left: 20px;
+		padding-right: 10px;			
+	}
+	#visionBody {
+		font-size: 1.2em;
+		padding-left: 20px;
+		padding-right: 10px;
+	}
+	#paybayCommunityBody {
+		font-size: 1.2em;
+		padding-left: 20px;
+		padding-right: 10px;
+	}
+	#mapBody {
+		font-size: 1.2em;
+		padding-left: 20px;
+		padding-right: 10px;
+	}
+}

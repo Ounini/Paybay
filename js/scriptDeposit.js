@@ -1,5 +1,3 @@
-
-
 const containers = document.querySelectorAll('.container');
 containers.forEach((container, index) => {
 	if (index === 0) {

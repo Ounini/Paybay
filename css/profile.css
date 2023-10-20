@@ -1,0 +1,545 @@
+div#box1 {
+	border: 2px solid #fff;
+	text-align: center;
+	width: 30vw;
+	height: 400px;
+	margin-left: 10%;
+	margin-top: 30px;
+	box-shadow: 0 0 40px 0 #000;
+	border-radius: 10px;
+	background-color: #fff;
+}
+div#box2 {
+	border: 2px solid #fff;
+	text-align: left;
+	width: 30vw;
+	height: 400px;
+	margin-left: 13%;
+	margin-top: 30px;
+	box-shadow: 0 0 40px 0 #000;
+	border-radius: 10px;
+	background-color: #fff;
+}
+div#box3 {
+	border: 2px solid #fff;
+	text-align: left;
+	width: 600px;
+	height: 800px;
+	margin-left: 32%;
+	margin-top: 100px;
+	box-shadow: 0 0 40px 0 #000;
+	border-radius: 10px;
+	background-color: #fff;
+	padding: 30px;
+}
+/*profile pic start*/
+img#profileImg {
+	margin-top: 50px;
+	border: 2px solid;
+	box-shadow: 0 0 10px 0 #000;
+	border-radius: 100px;
+}
+/*profile pic end*/
+/*username start*/
+div#username002 {
+	font-size: 1.7em;
+	font-weight: 600;
+	margin-top: 90px;
+}
+/*username end*/
+/*email start*/
+div#email001 {
+	font-size: 1.5em;
+	margin-top: 10px;
+}
+/*email end*/
+/*referrals Link start*/
+div#referralLink {
+	margin-top: 20px;
+	margin-left: 20px;
+}
+span#referralLink1 {
+	font-size: 2em;
+	position: relative;
+	top: 30px;
+}
+div#copyRL {
+	font-size: 1.5em;
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+#copyReferralLinkBtn {
+	border: none;
+	background-color: #fff;
+	padding: 2px;
+}
+#copyReferralLinkBtn:hover {
+	background-color: #198754;
+	color: #fff;
+}
+/*referrals Link end*/
+div#address {
+	margin-left: 20px;
+}
+span#addressText {
+	font-size: 2.3em;
+	position: relative;
+	top: 30px;
+}
+div#copyAddress {
+	font-size: 1.5em;
+	margin-top: 40px;
+}
+#copyAddressBtn {
+	border: none;
+	background-color: #fff;
+	padding: 2px;	
+}
+#copyAddressBtn:hover {
+	background-color: #198754;
+	color: #fff;	
+}
+a {
+	text-decoration: none;
+	transition: .5s ease;
+	color: #000;
+}
+.updatePassword a:hover {
+	color: #fff;
+	background-color: #6f42c1;
+}
+.updateProfile a:hover {
+	color: #fff;
+	background-color: #6f42c1;	
+} 
+.updateTransPass a:hover {
+	color: #fff;
+	background-color: #6f42c1;
+}
+.tabGroup {
+	list-style: none;
+}
+.updatePassword a {
+	font-size: 17px;
+	border: 1px solid #6f42c1;
+	border-radius: 10px;
+	padding: 21px;
+	text-align: center;	
+	position: relative;
+	bottom: 90px;
+	display: block;
+	transition: .5s ease;
+	font-weight: 600;
+}
+.updateProfile a {
+	font-size: 17px;
+	border: 1px solid #6f42c1;
+	border-radius: 10px;
+	padding: 34px;
+	text-align: center;	
+	position: relative;
+	right: 270px;
+	top: 5px;
+	display: block;
+	transition: .5s ease;
+	font-weight: 600;
+}
+.updateTransPass a {
+	font-size: 17px;
+	border: 1px solid #6f42c1;
+	border-radius: 10px;
+	padding: 20px;
+	text-align: center;	
+	position: relative;
+	right: 130px;
+	bottom: 60px;
+	display: block;
+	transition: .5s ease;
+	font-weight: 600;
+}
+.active a {
+	background-color: #6f42c1;
+	color: #fff;
+}
+.btn-primary {
+	--bs-btn-bg: #0d6efd !important;
+}
+#updatePassword1 {
+	display: none;
+}
+#updateTransPass {
+	display: none;
+}
+.form-control#username003 {
+	margin-bottom: 15px;
+}
+.form-control#email002 {
+	margin-bottom: 15px;
+}
+.form-control#transPassword {
+	margin-bottom: 15px;
+}
+.form-control#oldPassword {
+	margin-bottom: 10px;
+}
+.form-control#newPassword {
+	margin-bottom: 10px;
+}
+.form-control#confirmPassword {
+	margin-bottom: 10px;
+}
+.form-control#newTransPass {
+	margin-bottom: 10px;
+}
+.form-control#oldTransPass {
+	margin-bottom: 10px;
+}
+.form-control#confirmTransPass {
+	margin-bottom: 10px;
+}
+.form-label {
+	margin-top: 10px;
+	margin-bottom: 0;
+}
+.tabContent {
+	position: relative;
+	bottom: 40px;
+}
+/** media breakpoints **/
+/************ xtra xtra lerge device only **************/
+@media (min-width: 1400px) {
+
+}
+/********** xtra large device only **********/
+@media (min-width: 1200px) and (max-width: 1399px) {
+/* boxes*/
+	div#box1 {
+		width: 35vw;
+	}
+	div#box2 {
+		width: 35vw;
+	}
+	div#box3 {
+		height: 700px;
+		margin-left: 25%;
+	}
+/*	referrals Link start		*/
+	span#referralLink1 {
+		font-size: 1.7em;
+	}
+	div#copyRL {
+		font-size: 1.35em;
+	}
+/* end of referrals link end*/
+/* address link */
+	span#addressText {
+		font-size: 2em;
+	}
+	div#copyAddress {
+		font-size: 1.5em;
+	}
+/* end of address link */
+/* forms start */
+	.updateProfile a {
+		font-size: 15px;
+		padding: 15px;
+		margin-inline: 20px;
+		right: 250px;	
+	}
+	.updatePassword a {
+		font-size: 15px;
+		padding: 14px;
+		margin-inline: 30px;
+		bottom: 49px;
+		left: 30px;
+	}
+	.updateTransPass a {
+		font-size: 15px;
+		padding: 18px;
+		bottom: 40px;
+		right: 100px;
+	}
+/* forms ends	*/
+}
+/******** large device only ********/ 
+@media (min-width: 992px) and (max-width: 1199px) {
+/* boxes*/
+	div#box1 {
+		width: 35vw;
+	}
+	div#box2 {
+		width: 35vw;
+		padding-top: 40px;
+	}
+	div#box3 {
+		height: 700px;
+		margin-left: 25%;
+	}
+/*	referrals Link start		*/
+	span#referralLink1 {
+		font-size: 1.5em;
+	}
+	div#copyRL {
+		font-size: 1.3em;
+	}
+/* end of referrals link end*/
+/* address link */
+	span#addressText {
+		font-size: 1.8em;
+	}
+	div#copyAddress {
+		font-size: 1.5em;
+	}
+/* end of address link */
+/* forms start */
+	.updateProfile a {
+		font-size: 15px;
+		padding: 15px;
+		margin-inline: 70px;
+		right: 210px;	
+	}
+	.updatePassword a {
+		font-size: 15px;
+		padding: 14px;
+		margin-inline: 70px;
+		bottom: 49px;
+		left: 70px;
+	}
+	.updateTransPass a {
+		font-size: 15px;
+		padding: 18px;
+		margin-inline: 50px;
+		bottom: 40px;
+		right: 80px;
+	}
+/* forms ends	*/
+} 
+/**********medium device only ******/
+@media (min-width: 768px) and (max-width: 991px) {
+	/* boxes*/
+	div#box1 {
+		width: 500px;
+		margin-left: 20%;
+	}
+	div#box2 {
+		margin-top: 50px;
+		width: 500px;
+		margin-left: 20%;
+		padding-top: 40px;
+	}
+	div#box3 {
+		padding-top: 0;
+		width: 500px;
+		height: 750px;
+		margin-left: 20%;
+	}
+/*	referrals Link start		*/
+	span#referralLink1 {
+		font-size: 1.5em;
+	}
+	div#copyRL {
+		font-size: 1.3em;
+	}
+	.tabGroup {
+		position: relative;
+		left: -15px;
+		bottom: 0px;
+	}
+/* end of referrals link end*/
+/* address link */
+	span#addressText {
+		font-size: 1.8em;
+	}
+	div#copyAddress {
+		font-size: 1.5em;
+	}
+/* end of address link */
+/* forms start */
+	.updateProfile a {
+		font-size: 15px;
+		bottom: 80%;
+		margin-bottom: 0px;
+		margin-left: 40px;
+		padding: 15px;
+		margin-inline: 0px;
+		right: 130px;
+		position: inherit;
+		border-radius: 0px;	
+	}
+	.updatePassword a {
+		font-size: 15px;
+		padding: 16px;
+		margin-inline: 0px;
+		position: inherit;
+		border-radius: 0px;
+	}
+	.updateTransPass a {
+		font-size: 15px;
+		padding: 18px;
+		padding-inline: 10px;
+		bottom: 120px;
+		right: 90px;
+		position: inherit;
+		border-radius: 0px;
+	}
+	.tabContent {
+		top: 0px;
+	}
+
+/* forms ends	*/
+}
+/********* small device only *******/
+@media (min-width: 576px) and (max-width: 767px) {
+	/* boxes*/
+	div#box1 {
+		width: 400px;
+		margin-left: 15%;
+	}
+	div#box2 {
+		margin-top: 50px;
+		width: 400px;
+		margin-left: 15%;
+		padding-top: 40px;
+	}
+	div#box3 {
+		padding-top: 0;
+		width: 400px;
+		height: 750px;
+		margin-left: 15%;
+	}
+/*	referrals Link start		*/
+	span#referralLink1 {
+		font-size: 1.5em;
+	}
+	div#copyRL {
+		font-size: 1.3em;
+	}
+	.tabGroup {
+		position: relative;
+		left: -15px;
+		bottom: 0px;
+	}
+/* end of referrals link end*/
+/* address link */
+	span#addressText {
+		font-size: 1.8em;
+	}
+	div#copyAddress {
+		font-size: 1.5em;
+	}
+/* end of address link */
+/* forms start */
+	.updateProfile a {
+		font-size: 15px;
+		bottom: 80%;
+		margin-bottom: 0px;
+		margin-left: 40px;
+		padding: 15px;
+		margin-inline: 0px;
+		right: 130px;
+		border-radius: 0px;
+		position: inherit;	
+	}
+	.updatePassword a {
+		font-size: 15px;
+		padding: 16px;
+		margin-inline: 0px;
+		border-radius: 0px;
+		position: inherit;
+	}
+	.updateTransPass a {
+		font-size: 15px;
+		border-radius: 0px;
+		padding: 18px;
+		padding-inline: 10px;
+		bottom: 120px;
+		right: 90px;
+		position: inherit;
+	}
+	.tabContent {
+		top: 0px;
+	}
+
+/* forms ends	*/
+}
+/********** xtra small device only *******/
+@media (max-width: 575px) {
+	/* boxes*/
+	div#box1 {
+		width: 100vw;
+		margin-left: 0%;
+	}
+	div#box2 {
+		padding: 0px;
+		margin-top: 50px;
+		width: 100vw;
+		margin-left: 0%;
+		padding-top: 40px;
+	}
+	div#box3 {
+		padding-top: 0;
+		width: 100vw;
+		height: 800px;
+		margin-left: 0%;
+	}
+/*	referrals Link start		*/
+	span#referralLink1 {
+		font-size: 1.5em;
+	}
+	div#copyRL {
+		font-size: 1.3em;
+	}
+	.tabGroup {
+		top: 30px;
+		position: relative;
+		left: -15px;
+		bottom: 0px;
+	}
+/* end of referrals link end*/
+/* address link */
+	span#addressText {
+		font-size: 6vw;
+	}
+	div#copyAddress {
+		font-size: 1.5em;
+	}
+/* end of address link */
+/* forms start */
+	.updateProfile a {
+		font-size: 15px;
+		bottom: 80%;
+		margin-bottom: 0px;
+		margin-left: 40px;
+		padding: 15px;
+		margin-inline: 0px;
+		right: 130px;
+		border-radius: 0px;
+		position: inherit;	
+	}
+	.updatePassword a {
+		font-size: 15px;
+		padding: 16px;
+		margin-inline: 0px;
+		border-radius: 0px;
+		position: inherit;
+	}
+	.updateTransPass a {
+		font-size: 15px;
+		border-radius: 0px;
+		padding: 18px;
+		padding-inline: 10px;
+		bottom: 120px;
+		right: 90px;
+		position: inherit;
+	}
+	.tabContent {
+		top: 30px;
+	}
+	div#email001 {
+		font-size: 6vw;
+		margin-top: 10px;
+	}
+/*email end*
+
+/* forms ends	*/
+}

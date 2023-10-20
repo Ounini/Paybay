@@ -1,0 +1,74 @@
+body {
+	width: 100%;
+	height: 1000%;
+	font-family: Book Antiqua;
+	background-image: radial-gradient( #fff, #20c997);
+}
+.accordion-body {
+	font-size: 1.2em;
+}
+.accordion-item {
+	margin-bottom: 10px;
+}
+#logo {
+	margin-top: 10px;
+	width: 150px;
+	height: 150px;
+	margin-bottom: 50px;
+}
+.accordion-header {
+	font-size: 1.9em;
+}
+a:hover {
+	color: red;
+}
+/** media breakpoints **/
+/************ xtra xtra lerge device only **************/
+@media (min-width: 1400px) {
+ 
+}
+/********** xtra large device only **********/
+@media (min-width: 1200px) and (max-width: 1399px) {
+	.accordion-header {
+		font-size: 1.7em;
+	}
+
+}
+/******** large device only ********/ 
+@media (min-width: 992px) and (max-width: 1199px) {
+	.accordion-header {
+		font-size: 1.6em;
+	}
+}
+
+/******** medium device only *******/
+@media (min-width: 768px) and (max-width: 991px) {
+	.accordion-header {
+		font-size: 1.5em;
+	}
+	.accordion-body {
+		font-size: 1.15em;
+	}
+} 
+/********* small device only *******/
+@media (min-width: 576px) and (max-width: 767px) {
+	.accordion-header {
+		font-size: 1.5em;
+	}	
+	.accordion-body {
+		font-size: 1.15em;
+	}
+}
+/********** xtra small device only *******/
+@media (max-width: 575px) {
+	#logo {
+		width: 100px;
+		height: 100px;
+	}
+	.accordion-header {
+		font-size: 1.4em;
+	}
+	.accordion-item {
+		font-size: 1em;
+	}
+}

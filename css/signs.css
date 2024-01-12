@@ -179,6 +179,11 @@ p#notMember {
 a#signUp1 {
   padding-bottom: 0;
 }
+.form-text {
+  margin-top: -20px;
+  color: white;
+  font-weight: bold;
+}
 footer {
   position: relative;
   top: 90%;

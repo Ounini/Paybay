@@ -44,7 +44,7 @@ img#profileImg {
 div#username002 {
 	font-size: 1.7em;
 	font-weight: 600;
-	margin-top: 90px;
+	margin-top: 50px;
 }
 /*username end*/
 /*email start*/
@@ -55,7 +55,7 @@ div#email001 {
 /*email end*/
 /*referrals Link start*/
 div#referralLink {
-	margin-top: 20px;
+	margin-top: -20px;
 	margin-left: 20px;
 }
 span#referralLink1 {
